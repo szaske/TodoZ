@@ -1,0 +1,3 @@
+{
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/flow-bin/flow-osx-v0.75.0/flow"
+}
