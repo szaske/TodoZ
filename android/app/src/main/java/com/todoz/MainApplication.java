@@ -1,4 +1,4 @@
-package com.rnstarter;
+package com.todoz;
 
 import android.app.Application;
 
