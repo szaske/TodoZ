@@ -32,9 +32,9 @@ export default class TodoList extends Component<{}> {
       <View style={styles.container}>
         <Text style={styles.header}>ToDo List</Text>
         <View>
-          <TodoItem />
-          <TodoItem />
-          <TodoItem />
+          <TodoItem title="1. Go to the store" />
+          <TodoItem title="2. Get milk" />
+          <TodoItem title="3. Have fun" />
         </View>
       </View>
     )

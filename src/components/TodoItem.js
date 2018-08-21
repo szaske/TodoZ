@@ -8,8 +8,15 @@ const styles = StyleSheet.create({
   },
 })
 
-export default class TodoItem extends Component<{}> {
+type Props = { title: string }
+export default class TodoItem extends Component<Props> {
   render() {
-    return <Text style={styles.item}>1. Go to the store</Text>
+    // Assigning this const is called destructing.  It is required
+    // according to my Airbnb eslint rules.  Destrucuturing
+    // keeps code more readable and allows me to use {title}
+    // instead of {this.props.title}
+    const { title } = this.props
+    console.log('props', this.props)
+    return <Text style={styles.item}>{title}</Text>
   }
 }
