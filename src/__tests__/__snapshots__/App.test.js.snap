@@ -8,6 +8,7 @@ exports[`renders correctly 1`] = `
       "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
+      "textAlign": "center",
     }
   }
 >
@@ -20,30 +21,36 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    RNStarter
+    ToDo List
   </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+  <View>
+    <Text
+      style={
+        Object {
+          "padding": 10,
+        }
       }
-    }
-  >
-    To get started, edit App.js
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+    >
+      1. Go to the store
+    </Text>
+    <Text
+      style={
+        Object {
+          "padding": 10,
+        }
       }
-    }
-  >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    >
+      1. Go to the store
+    </Text>
+    <Text
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      1. Go to the store
+    </Text>
+  </View>
 </View>
 `;

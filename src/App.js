@@ -1,36 +1,25 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+// This anotation enables Flow analysis on the file.
+// @flow
 
+// This is the same React library used in React web.  Both
+// ReacT and React-Native use this library and the only
+// difference is the output components
 import React, { Component } from 'react'
-import { Platform, Text, View } from 'react-native'
-import styles from './App.styles'
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu',
-})
+// These are some common React-Native components. A complete
+// list can be found at the React-Native website
+// they're no longer being used
+// import { Platform, Text, View } from 'react-native'
 
-// Fake code to see if Flow is working correctly
-// function test(value) {
-//   return value.length
-// }
+// I placed the styles in there own file, so it's imported here
+// import styles from './App.styles'
+import TodoList from './components/TodoList'
 
-// const results = test(null)
-
+// This render method is coded in JSX.  It looks like HTML
+// but is different
 type Props = {}
 export default class App extends Component<Props> {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>RNStarter</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
-    )
+    return <TodoList />
   }
 }
