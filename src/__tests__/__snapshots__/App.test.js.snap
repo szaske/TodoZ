@@ -24,33 +24,96 @@ exports[`renders correctly 1`] = `
     ToDo List
   </Text>
   <View>
-    <Text
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "padding": 10,
+          "opacity": 1,
         }
       }
     >
-      1. Go to the store
-    </Text>
-    <Text
+      <Text
+        style={
+          Array [
+            Object {
+              "padding": 10,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        1. Go to the store
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "padding": 10,
+          "opacity": 1,
         }
       }
     >
-      2. Get milk
-    </Text>
-    <Text
+      <Text
+        style={
+          Array [
+            Object {
+              "padding": 10,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        2. Get milk
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "padding": 10,
+          "opacity": 1,
         }
       }
     >
-      3. Have fun
-    </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "padding": 10,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        3. Have fun
+      </Text>
+    </View>
   </View>
 </View>
 `;

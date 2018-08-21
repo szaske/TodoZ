@@ -1,6 +1,6 @@
-# React Native Starter
+# ToDo List
 
-A basic React-Native project to be used as a starting point for a new React Native project. 
+A basic ToDo mobile application written in React Native. 
 
 It includes a good set of web development tools; Prettier, ESLint, Flow & Jest.  It is configured so that when files are git staged they will be linted, prettied and tested before being commited.
 
@@ -15,21 +15,12 @@ It includes a good set of web development tools; Prettier, ESLint, Flow & Jest. 
 * [lint-staged 7.2.2](https://github.com/okonet/lint-staged) - Run linters against staged git files before commits   
     
 ## How to create/start a new project
-I created this repo to help me learn React Native and give me a good starting point for new React Native projects.  One problem with using a boilerplate project like this is that React Native does not have an easy way to rename your project. So to solve that problem we'll use the node package [react-native-rename](https://www.npmjs.com/package/react-native-rename).  You can install it using:
+
 
 ```
-yarn global add react-native-rename
-or
-npm install react-native-rename -g
-```
-
-So to create a new project the steps are
-
-```
-git clone https://github.com/szaske/RNStarter.git
-cd RNStarter
+git clone https://github.com/szaske/TodoZ.git
+cd TodoZ
 yarn
-react-native-rename <newname>
 ```
 
 ## License
