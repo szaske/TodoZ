@@ -32,7 +32,6 @@ export default class TodoItem extends Component<Props, State> {
     // instead of {this.props.title}
     const { title } = this.props
     const { completed } = this.state
-
     console.log('props', this.props)
     return (
       <TouchableOpacity onPress={this.toggltTodo}>

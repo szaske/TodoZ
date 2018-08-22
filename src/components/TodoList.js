@@ -28,13 +28,29 @@ export default class TodoList extends Component<{}> {
     // console.log('Steve Zaske was here')
     // console.warn('Steve Zaske was here')
     // console.error('Steve Zaske was here')
+
+    // Here I'm creating an array of items
+    const items = [
+      {
+        id: 1,
+        title: 'Go to the store',
+      },
+      {
+        id: 2,
+        title: 'Get chocolate milk',
+      },
+      {
+        id: 3,
+        title: 'Have some fun',
+      },
+    ]
     return (
       <View style={styles.container}>
         <Text style={styles.header}>ToDo List</Text>
-        <View>
-          <TodoItem title="1. Go to the store" />
-          <TodoItem title="2. Get milk" />
-          <TodoItem title="3. Have fun" />
+        <View style={styles.header}>
+          {items.map(item => (
+            <TodoItem title={item.title} key={item.id} />
+          ))}
         </View>
       </View>
     )
